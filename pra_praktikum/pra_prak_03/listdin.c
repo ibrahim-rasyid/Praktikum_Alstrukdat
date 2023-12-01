@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include "listdin.h"
 
+// Nilai Pra-Praktikum : 54/100
+
 void CreateListDin(ListDin *l, int capacity) {
     CAPACITY(*l) = capacity;
     BUFFER(*l) = (ElType*) malloc(capacity*sizeof(ElType));

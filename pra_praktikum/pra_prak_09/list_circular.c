@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include "list_circular.h"
 
+// Nilai Pra-Praktikum : 87.5/100
+
 boolean isEmpty(List l) {
     return (FIRST(l) == NULL);
 }

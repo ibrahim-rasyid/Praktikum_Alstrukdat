@@ -3,6 +3,8 @@
 #include "boolean.h"
 #include "point.h"
 
+// Nilai Pra-Praktikum : 44.5/50
+
 void CreatePoint (POINT *P, float X, float Y) {
     Absis(*P) = X;
     Ordinat(*P) = Y;

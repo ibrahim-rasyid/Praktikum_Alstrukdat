@@ -3,6 +3,8 @@
 #include "boolean.h"
 #include "listlinier.h"
 
+// Nilai Pra-Praktikum : 100/100
+
 Address newNode(ElType val) {
     Address p = (Address) malloc(sizeof(Node));
     if (p != NULL) {

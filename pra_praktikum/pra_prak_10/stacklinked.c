@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include "stacklinked.h"
 
+// Nilai Pra-Praktikum : 46.43/50
+
 Address newNode(ElType x) {
     Address p = (Address) malloc(sizeof(Node));
     if (p != NULL) {

@@ -3,6 +3,8 @@
 #include "charmachine.h"
 #include "wordmachine.h"
 
+// Nilai Pra-Praktikum : 100/100
+
 boolean EndWord;
 Word currentWord;
 

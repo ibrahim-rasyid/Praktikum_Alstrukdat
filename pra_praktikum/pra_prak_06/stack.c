@@ -2,6 +2,8 @@
 #include "boolean.h"
 #include "stack.h"
 
+// Nilai Pra-Praktikum : 90/100
+
 void CreateEmpty(Stack *S) {
     Top(*S) = Nil;
 }

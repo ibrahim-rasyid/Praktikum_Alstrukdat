@@ -3,6 +3,8 @@
 #include "boolean.h"
 #include "time.h"
 
+// Nilai Pra-Praktikum : 43/50
+
 boolean IsTIMEValid (int H, int M, int S) {
     return ((0 <= H <= 23) && (0 <= M <= 59) && (0 <= S <= 59));
 }

@@ -3,6 +3,8 @@
 #include "queue.h"
 #include "boolean.h"
 
+// Nilai Pra-Praktikum : 100/100
+
 void CreateQueue(Queue *q) {
     IDX_HEAD(*q) = IDX_UNDEF;
     IDX_TAIL(*q) = IDX_UNDEF;

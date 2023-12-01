@@ -3,8 +3,6 @@
 #include "boolean.h"
 #include "matrix.h"
 
-// Nilai Pra-Praktikum : 82/100
-
 void createMatrix(int nRows, int nCols, Matrix *m) {
     ROW_EFF(*m) = nRows;
     COL_EFF(*m) = nCols;

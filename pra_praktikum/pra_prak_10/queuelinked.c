@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include "queuelinked.h"
 
+// Nilai Pra-Praktikum : 46.875/50
+
 Address newNode(ElType x) {
     Address p = (Address) malloc(sizeof(Node));
     if (p != NULL) {

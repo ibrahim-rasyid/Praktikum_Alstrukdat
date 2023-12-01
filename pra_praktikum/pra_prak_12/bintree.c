@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include "bintree.h"
 
+// Nilai Pra-Praktikum : 100/100
+
 BinTree NewTree (ElType root, BinTree left_tree, BinTree right_tree) { 
     BinTree p;
     p = (Address) malloc(sizeof(TreeNode));

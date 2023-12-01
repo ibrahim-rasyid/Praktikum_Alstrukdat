@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include "listrec.h"
 
+// Nilai Pra-Praktikum : 100/100
+
 Address newNode(ElType x) {
     Address p;
     p = (Address) malloc(sizeof(Node));

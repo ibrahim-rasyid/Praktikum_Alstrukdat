@@ -2,6 +2,8 @@
 #include "boolean.h"
 #include "liststatik.h"
 
+// Nilai Pra-Praktikum : 40/100
+
 void CreateListStatik(ListStatik *l) {
     int i = 0;
     for (i;i<CAPACITY;i++) {
